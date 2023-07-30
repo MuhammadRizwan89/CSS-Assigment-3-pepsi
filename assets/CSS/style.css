@@ -1,0 +1,633 @@
+/* NAVBAR */
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0065c3;
+}
+
+a.nav-link {
+  color: #fff;
+  font-family: Sofia Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a.nav-link:hover {
+  color: #ffffff;
+  background: #fff;
+}
+
+.nav-item {
+  padding-left: 50px;
+}
+a.navbar-brand {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  .space-both {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  button.navbar-toggler {
+    background: #ffff;
+  }
+}
+.pepsi-btn {
+  font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 5px 25px;
+  margin-right: 20px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  font-size: 0.875rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+@keyframes tada {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  10%,
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate(-3deg);
+  }
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(3deg);
+  }
+  40%,
+  60%,
+  80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate(-3deg);
+  }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.pepsi-btn:hover {
+  background-color: #fff;
+  color: #0065c3;
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform: rotate(200deg);
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes rotateIn {
+  0% {
+    -webkit-transform: rotate(200deg);
+    transform: rotate(200deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.logo:hover {
+  -webkit-animation-name: rotateIn;
+  animation-duration: 0.3s;
+  animation-name: rotateIn;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+}
+
+/* .........NAVBAR END............ */
+
+/* SECTION-ONE */
+.cola {
+  overflow: hidden;
+}
+.cola img {
+  width: 26rem;
+  transform: translateY(7rem);
+}
+
+.section-one {
+  background-image: url(../Images/background-one.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.apple-musice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-6rem);
+}
+
+.apple-musice button {
+  margin: 2rem 0;
+}
+
+.apple-musice p {
+  width: 370px;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+/* .........SECTION-ONE END............ */
+
+/* SECTION-TWO */
+
+.section-two {
+  background-image: url(../Images/background-two.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  overflow: hidden;
+}
+
+.zero-shuger img {
+  width: 55rem;
+  transform: translateY(-4rem);
+  padding-left: 5rem;
+}
+
+.zero {
+  position: relative;
+}
+
+.zero-shuger-2 {
+  position: absolute;
+  top: 2rem;
+  right: -7rem;
+}
+
+.zero-one {
+  text-align: center;
+}
+.zero-1 img {
+  width: 30rem;
+  margin-top: 5rem;
+}
+
+.zero-2 img {
+  width: 22rem;
+  margin-top: 2rem;
+}
+
+.zero-two {
+  display: flex;
+  justify-content: center;
+}
+
+.zero-3 img {
+  width: 15rem;
+  padding-top: 2rem;
+  padding-right: 0.5rem;
+}
+
+.zero-4 img {
+  width: 15rem;
+  padding-top: 2rem;
+  padding-left: 0.5rem;
+}
+
+/* .........SECTION-TWO END............ */
+
+/* SECTION-THREE */
+
+.section-three {
+  background-image: url(../Images/background-three.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nitro img {
+  margin-left: 15rem;
+  width: 25rem;
+  padding-top: 3rem;
+}
+
+.nitro-text {
+  position: relative;
+}
+
+.nitro-text img {
+  width: 25rem;
+  justify-content: center;
+  position: absolute;
+  top: 12rem;
+  left: 6rem;
+}
+.nitro-text h2 {
+  font-family: Cervo Neue;
+  font-weight: 400px;
+  margin: 0px;
+  color: #fff;
+  position: absolute;
+  top: 28rem;
+  left: 3rem;
+}
+
+.nitro-text button {
+  position: absolute;
+  top: 31rem;
+  left: 14rem;
+}
+
+/* .........SECTION-THREE END............ */
+
+/* SECTION-FOUR */
+
+.section-four {
+  background-color: #265cc5;
+  height: 42rem;
+}
+.better-with-pepsi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 42rem;
+  align-items: center;
+}
+
+.better-one {
+  background-color: #1437bf;
+  width: 27rem;
+}
+.better-one img {
+  width: 100%;
+}
+.better-one div h4 {
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem 0rem;
+}
+
+.pepsi-burger {
+  width: 100%;
+  height: 42rem;
+  background-image: url(../Images/PEP_BWP_D.jpg);
+  background-size: cover;
+  background-position: 65% 0;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.lg-text img {
+  position: absolute;
+  width: 40rem;
+  right: 0rem;
+  bottom: 1rem;
+}
+
+/* .........SECTION-FOUR END............ */
+
+/* SECTION-FIVE */
+
+.section-five {
+  background-color: #004391;
+  background-image: url(../Images/bg-2-desktop@2x.png);
+  height: 98vh;
+  width: 100%;
+  background-size: 80rem;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+}
+.mango-text {
+  position: relative;
+}
+.mt-one img {
+  width: 25rem;
+  position: absolute;
+  top: 5rem;
+  left: 3rem;
+}
+.mt-two img {
+  width: 30rem;
+  position: absolute;
+  top: 42rem;
+  left: 3rem;
+}
+.mango {
+  position: relative;
+}
+.mango-img img {
+  width: 60rem;
+  position: absolute;
+  right: 0px;
+}
+
+/* .........SECTION-FIVE END............ */
+
+/* SECTION-SIX */
+
+/* .........SECTION-SIX END............ */
+
+/* SECTION-SEVEN */
+
+.section-seven {
+  background-image: url(../Images/twil-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50rem;
+  overflow: hidden;
+}
+.pepsi-lg-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.pepsi-lg-img img {
+  position: absolute;
+  top: 3rem;
+}
+.pepsi-lg-text {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.pepsi-lg-text img {
+  width: 30rem;
+  position: absolute;
+  top: 15rem;
+  right: 7rem;
+}
+
+/* .........SECTION-SEVEN END............ */
+
+/* SECTION-EIGHT */
+
+.section-eight {
+  background-color: #0065c3;
+  width: 100%;
+  height: 35rem;
+}
+.flavour {
+  width: 100%;
+  height: 35rem;
+  text-align: center;
+}
+.flavour p {
+  color: #fff;
+  text-align: left;
+  padding-left: 10rem;
+}
+.flavour div button {
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.heading-two {
+  padding-top: 10rem;
+}
+.heading-two span {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  font-family: Sofia Pro Regular;
+  font-size: 2.8rem;
+  text-align: left;
+  padding-left: 10rem;
+}
+.permotion {
+  position: relative;
+  width: 100%;
+  height: 35rem;
+}
+
+.permotion-pepsi img {
+  width: 35rem;
+  position: absolute;
+  top: 10rem;
+  left: 7rem;
+}
+
+/* .........SECTION-EIGHT END............ */
+
+/* SECTION-NINE */
+
+.section-nine {
+  background-color: #fff;
+  width: 100%;
+  height: 25rem;
+}
+.follow-text h2 {
+  text-align: center;
+  color: #0065c3;
+  font-weight: bolder;
+  font-size: 5rem;
+  font-family: fantasy;
+}
+.follow-pepsi {
+  display: flex;
+  justify-content: center;
+}
+.follow-pepsi div img {
+  width: 17rem;
+  height: 100%;
+  cursor: pointer;
+}
+@-webkit-keyframes bounceIn {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+@keyframes bounceIn {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.follow-pepsi div img:hover {
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-duration: calc(var(--animate-duration) * 0.75);
+  animation-duration: calc(var(--animate-duration) * 0.75);
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+/* .........SECTION-NINE END............ */
+
+/* SECTION-TEN */
+
+.section-ten {
+  background-color: #0065c3;
+  width: 100%;
+  height: 15rem;
+}
+
+.footr-section {
+  width: 100%;
+  height: 100%;
+  padding: 2.5%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.logo-end {
+  height: 100%;
+  position: relative;
+}
+.logo-end img {
+  width: 7rem;
+  position: absolute;
+  top: 2rem;
+}
+.contact-us {
+  width: 100%;
+  height: 100%;
+}
+.contact-us ul {
+  list-style: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 3.5rem;
+  padding-right: .5rem;
+  cursor: pointer;
+}
+
+.subscribe {
+  width: 100%;
+  height: 15rem;
+  align-items: center;
+}
+
+.subscribe button{
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
+
+.footer-icon div i {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  cursor: pointer;
+}
